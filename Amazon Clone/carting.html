@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navBar">
+            <div class="left">
+                <img src="/amazon-logo-600x400.png.webp" alt="Amazon Logo" class="logo">
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Category <i class="fa fa-caret-down"></i>
+                </button>
+                  <div class="dropdown-content">
+                        <a href="/shampoo.html">Shampoo</a>
+                        <a href="/soap.html">Soap</a>
+                        <a href="/cosmetics.html">Cosmetics</a>
+                      </div>
+            </div>
+            <div class="center">
+                <input type="search" class="searchBar" placeholder="Please search something here...">
+            </div>
+           <div class="right">
+                <ul class="navList">
+                    <li><a href="/inbox.html">Home</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#Contact-Us">Contact Us</a></li>
+                    <li><a href="#About Us">About Us</a></li>
+                    <li style="margin-left: 30px;"><a href="#About Us" style="background-color: #ff9900; color: black;"  class="login">Log in</a></li>
+                    <li style="margin-right: 40px;"><a href="#" style="font-size: 18px; display: flex;"><i class="fa fa-shopping-cart"></i><p class="updation" style="background-color: red; color: white; padding: 1px 3px; border-radius: 10px; font-size: 14px;" id="cartNumber">0</p></a></li>
+                </ul>
+           </div>
+        </nav>
+    </div>
+    <div>
+    <div id="label" class="text-center" style="text-align: center; margin-top: 30px; color: #404040;">
+
+    </div>
+    <div id="shopping-cart" class="shopping-cart">
+    </div>
+    </div>
+      <footer>
+        <button class="backtotop" onclick="topFunction()">Back to top</button>
+        <div class="sections">
+            <section class="st">
+                <ul>
+                    <li><a href="">Dress</a></li>
+                    <li><a href="">Article</a></li>
+                    <li><a href="">API</a></li>
+                    <li><a href="">Documentation</a></li>
+                </ul>
+            </section>
+            <section class="nd">
+                <ul>
+                    <li><a href="">Garments</a></li>
+                    <li><a href="">Computer</a></li>
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">Mobiles</a></li>
+                </ul>
+            </section>
+            <section class="rd">
+                <ul>
+                    <li><a href="">Drinks</a></li>
+                    <li><a href="">Bags</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+    <script src="/data.js"></script>
+    <script src="/cart.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
